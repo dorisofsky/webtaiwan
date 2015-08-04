@@ -70,7 +70,7 @@ function drawTaiwan(){
       d3.select(this).transition().duration(300).style("opacity", 1);
       div.transition().duration(300)
       .style("opacity", 1)
-      div.text(nameById[d.id] + " : " + dataById[d.id] * 100 + " % " )
+      div.text(nameById[d.id] + " : " + Math.round( dataById[d.id] * 100 )+ " % " )
       .style("left", (d3.event.pageX) + "px")
       .style("top", (d3.event.pageY -30) + "px");
     })
