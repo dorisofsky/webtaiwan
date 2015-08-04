@@ -10,7 +10,7 @@ function drawTaiwan(){
   // Setting color domains(intervals of values) for our map
 
   var color_domain = [0.15, 0.30, 0.50, 0.65, 0.80]
-  var ext_color_domain = [0, 0.15, 0.30, 0.50, 0.65, 0.80]
+  var ext_color_domain = [< 0, 15%, 30%, 50%, 65%, > 80%]
   var legend_labels = ["< 0", "15%", "30%", "50%", "65%", "> 80%"]              
 
   var color = d3.scale.threshold()
