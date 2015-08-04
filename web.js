@@ -10,7 +10,7 @@ function drawTaiwan(){
   // Setting color domains(intervals of values) for our map
 
   var color_domain = [0.15, 0.30, 0.50, 0.65, 0.80]
-  var ext_color_domain = [< 0, 15%, 30%, 50%, 65%, > 80%]
+  var ext_color_domain = [0, 0.15, 0.30, 0.50, 0.65, 0.80]
   var legend_labels = ["< 0", "15%", "30%", "50%", "65%", "> 80%"]              
 
   var color = d3.scale.threshold()
@@ -70,7 +70,7 @@ function drawTaiwan(){
       d3.select(this).transition().duration(300).style("opacity", 1);
       div.transition().duration(300)
       .style("opacity", 1)
-      div.text(nameById[d.id] + " : " + dataById[d.id])
+      div.text(nameById[d.id] + " : " + dataById[d.id] * 100 + " % " )
       .style("left", (d3.event.pageX) + "px")
       .style("top", (d3.event.pageY -30) + "px");
     })
