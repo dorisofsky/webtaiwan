@@ -7,20 +7,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.h {
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  border: 1px;
+p {
+  font-size: 20px;
 }
-
 .city {
   font: 10px sans-serif;
   font-weight: bold;
 }
 
 .legend {
-  font-size: 12px;
+  
 }
 
 div.tooltip {   
