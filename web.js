@@ -1,7 +1,9 @@
 $(document).ready(function() {
     drawTaiwan()
    });
-  
+
+<h>台灣網路使用普及率</h>
+
 function drawTaiwan(){
 
   var width = 1000,
