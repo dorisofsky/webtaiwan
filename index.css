@@ -4,7 +4,9 @@ path {
 }
 
 head.text{
-  font-size: 20px;
+  font-family: "儷黑 Pro", "標楷體";
+  font-size: 30px;
+  font-weight: bold;
 }
 
 body {
