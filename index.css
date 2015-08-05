@@ -7,7 +7,10 @@ h1{
   font-family: "微軟正黑體", "儷黑 Pro", "標楷體", PMingLiU, sans-serif;;
   font-size: 30px;
   font-weight: 700;
+  background: black;
+  color: orange;
   stroke-width: 2px;
+  stroke:white;
   text-align: center;
 }
 

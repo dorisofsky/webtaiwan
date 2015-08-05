@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function drawTaiwan(){
 
-  var width = 1000,
+  var width = 900,
   height = 700;
 
   // Setting color domains(intervals of values) for our map
@@ -28,7 +28,7 @@ function drawTaiwan(){
 
   var projection = d3.geo.mercator()
   .center([121,24])
-  .scale(8000)
+  .scale(7500)
   .translate([width / 2, height / 2]);
 
   var path = d3.geo.path().projection(projection);
