@@ -3,7 +3,7 @@ path {
   stroke-width: 1px;
 }
 
-head.text{
+h1{
   font-family: "儷黑 Pro", "標楷體";
   font-size: 30px;
   font-weight: bold;
@@ -12,6 +12,7 @@ head.text{
 body {
   font-family: Arial, sans-serif;
 }
+
 
 
 .city {
