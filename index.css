@@ -4,9 +4,11 @@ path {
 }
 
 h1{
-  font-family: "儷黑 Pro", "標楷體";
+  font-family: "微軟正黑體", "儷黑 Pro", "標楷體", PMingLiU, sans-serif;;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
+  stroke-width: 2px;
+  text-align: center;
 }
 
 body {
