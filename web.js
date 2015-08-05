@@ -28,7 +28,7 @@ function drawTaiwan(){
 
   var projection = d3.geo.mercator()
   .center([121,24])
-  .scale(700)
+  .scale(8000)
   .translate([width / 2, height / 2]);
 
   var path = d3.geo.path().projection(projection);
