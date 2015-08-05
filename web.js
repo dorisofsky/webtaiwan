@@ -4,8 +4,8 @@ $(document).ready(function() {
 
 function drawTaiwan(){
 
-  var width = 1300,
-  height = 700;
+  var width = 100%,
+  height = 100%;
 
   // Setting color domains(intervals of values) for our map
 
